@@ -9,7 +9,7 @@
    "type": "REST",
    "lang": {
        "en-US": {
-           "name": "{{ACTIVITY_NAME}}",
+           "name": "jb_customactivity",
            "description": "{{ACTIVITY_DESCRIPTION}}"
        }
    },
@@ -26,23 +26,23 @@
        }
    },
    "configurationArguments": {
-       "applicationExtensionKey": "{{KEY}}",
+       "applicationExtensionKey": "f1406e8e-aaa3-44bf-aafb-080915aac4d4",
        "save": {
-           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/save",
+           "url": "https://pocjourneybuilder.herokuapp.com/ixn/activities/hello-world/save",
 		   "verb": "POST",
 			"body": "",
             "format": "json",
             "useJwt": false
        },
        "publish": {
-           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/publish",
+           "url": "https://pocjourneybuilder.herokuapp.com/ixn/activities/hello-world/publish",
 		   "verb": "POST",
 			"body": "",
             "format": "json",
             "useJwt": false
        },
        "validate": {
-           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/validate",
+           "url": "https://pocjourneybuilder.herokuapp.com/ixn/activities/hello-world/validate",
 		   "verb": "POST",
 			"body": "",
             "format": "json",
@@ -50,7 +50,7 @@
        }
    },
    "edit": {
-		"url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/",
+		"url": "https://pocjourneybuilder.herokuapp.com/ixn/activities/hello-world/",
 		"height": 400,
 		"width": 500
 	}
