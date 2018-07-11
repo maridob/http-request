@@ -130,7 +130,7 @@ app.post('/fireEvent/:type', function( req, res ) {
     var reqOpts = {};
 
     if( 'helloWorld' !== req.params.type ) {
-        res.send( 400, 'Unknown route param: "' + req.params.type +'"' );
+        res.send( 200, 'Success "' + req.params.type +'"' );
     } else {
         // Hydrate the request
         reqOpts = {
