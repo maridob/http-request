@@ -49,7 +49,8 @@ function logData( req, http_result ) {
 			secure: req.secure,
 			originalUrl: req.originalUrl
 		}	
-    });
+	});
+	console.log( "query: " + util.inspect( req.query ) );
     /*
         console.log( "body: " + util.inspect( req.body ) );
         console.log( "headers: " + req.headers );

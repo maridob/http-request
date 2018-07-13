@@ -15,9 +15,12 @@
    },
    "arguments": {
        "execute": {
-           "inArguments": [{ "eventData":"{{Context.PublicationId}}"}],
-           "outArguments": [],
-           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/execute",
+           "inArguments": [{ "guest_id":"123"},
+                            {"transaction_id":"2"},
+                             {"event_id":"122"}],
+           "outArguments": [{"type":""},
+                            {"code":""}],
+           "url": "https://pocjourneybuilder.herokuapp.com/ixn/activities/hello-world/execute",
 		   "verb": "POST",
 		   "body": "",
             "format": "json",
