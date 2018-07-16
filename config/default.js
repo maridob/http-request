@@ -1,5 +1,5 @@
 module.exports = {
-   appId           : '6a76f69a-6e10-4158-89b6-c09dc2bcbfbe',
+   appId           : 'f1406e8e-aaa3-44bf-aafb-080915aac4d4',
    clientId        : 'g2dv103gequ2pom59xgr6ggv',
    clientSecret    : 'QQfGf8llNqTh9n0vNMBllToA',
    appSignature    : 'poc_journey',
