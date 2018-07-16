@@ -20,7 +20,7 @@
                              {"event_id":"122"}],
            "outArguments": [{"type":""},
                             {"code":""}],
-           "url": "https://pocjourneybuilder.herokuapp.com/ixn/activities/hello-world/execute",
+           "url": "https://jbpoc.global.tgt-pe-test.gcp.cloud.target.com/guest_concession/v1?guest_id=%22777%22,&transaction_id=%228%22,&event_id=%229%22",
 		   "verb": "POST",
 		   "body": "",
             "format": "json",
